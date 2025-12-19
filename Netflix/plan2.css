@@ -1,0 +1,141 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  border-bottom:1px solid rgb(204, 193, 193);
+  height:50px;
+  padding: 10px 20px 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  height:25px;
+  width:100px;
+}
+header button{
+  background-color: white;
+  height:30px;
+  width:60px;
+  border:none;
+  border-radius: 4px;
+}
+header button:hover{
+  background-color: rgb(209, 202, 202);
+}
+
+
+main{
+  border-bottom:2px solid gray;
+}
+.step{
+  margin-left:60px;
+}
+.complete span{
+  font-size:18px;
+}
+.plan{
+  font-weight: bold;
+  font-size: 33px;
+  margin: 0 0 40px 0;
+}
+
+.Grid{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  column-gap:10px;
+  margin-left: 55px;
+}
+.g{
+  border: 1px solid rgb(199, 196, 196);
+  height:550px;
+  border-radius:10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction:column;
+  padding:30px;
+}
+.g:hover{
+  transform: scaleX(1);
+}
+
+.top1{
+  background:linear-gradient(to bottom,rgb(38, 80, 172),rgb(43, 43, 212));
+  height:80px;
+  width: 260px;
+  margin-left:-21px;
+  margin-top:-20px;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.top2{
+  background:linear-gradient(to left,rgb(4, 16, 182),rgb(107, 136, 218));
+  height:80px;
+  width: 260px;
+  margin-left:-21px;
+  margin-top:-20px;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.top3{
+  background:linear-gradient(to top,purple,blue);
+  height:80px;
+  width: 260px;
+  margin-left:-21px;
+  margin-top:-20px;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.top4{
+ background:linear-gradient(to bottom,purple,blue);
+  height:80px;
+  width: 260px;
+  margin-left:-21px;
+  margin-top:-20px;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.features{
+  margin-left: -15px;
+  width:240px;
+  border-bottom:1px solid rgb(185, 176, 176) ;
+}
+.title{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: gray;
+}
+.limit{
+  font-size:15px;
+  font-weight: bold;
+  color: rgb(85, 83, 83);
+  margin-top: 5px;
+}
+.next{
+  width:400px;
+  height:60px;
+  margin-left: 40px;
+  background-color: rgb(245, 52, 52);
+  border:none;
+  color:white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.8s ease;
+}
+.next:hover{
+  background-color: rgb(163, 3, 3);
+}
+
+.question{
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
