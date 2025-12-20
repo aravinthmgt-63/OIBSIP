@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calculator1.css">
+  <title>calculator</title>
+</head>
+<body>
+  <div class="cal">
+    <input type="text" id="display">
+
+    <div class="btn">
+      <button onclick="Clear()">C</button>
+      <button onclick="deletelast()">DEL</button>
+      <button onclick="append('%')">%</button>
+      <button onclick="append('/')">/</button>
+
+      <button onclick="append('7')">7</button>
+      <button onclick="append('8')">8</button>
+      <button onclick="append('9')">9</button>
+      <button onclick="append('*')">*</button> 
+
+      <button onclick="append('7')">4</button>
+      <button onclick="append('8')">5</button>
+      <button onclick="append('9')">6</button>
+      <button onclick="append('*')">-</button> 
+
+      <button onclick="append('1')">1</button>
+      <button onclick="append('2')">2</button>
+      <button onclick="append('3')">3</button>
+      <button onclick="append('+')">+</button>
+
+      <button onclick="append('0')" class="zero">0</button>
+      <button onclick="append('.')">.</button>
+      <button onclick="calculate()" class="equal">=</button>
+    </div>
+    <p class="copyright">&copy; Designed by
+      <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bc7%2BDivPgSK2%2BZG%2BC%2BwJSog%3D%3D">
+        Aravinth T
+      </a>
+    </p>
+  </div>
+
+  <script src="calculator1.js"></script>
+</body>
+</html>
