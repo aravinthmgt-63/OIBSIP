@@ -126,3 +126,10 @@ footer{
 .plan:hover{
   background-color: rgb(219, 17, 17);
 }
+
+.copyright{
+    display: flex;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}

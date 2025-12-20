@@ -94,3 +94,10 @@ main{
   margin-bottom: 30px;
   margin-top: 30px;
 }
+.copyright{
+  justify-content: center;
+  display:flex;
+  font-size:30px;
+  font-weight:bold;
+  color:rgb(163, 156, 156);
+}
