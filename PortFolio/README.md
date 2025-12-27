@@ -1,1 +1,1 @@
-
+This is my personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and experience as a web developer. The website features a modern, responsive design with smooth navigation and well-structured sections such as About, Skills, Projects, and Contact. It serves as a central platform to highlight my work, demonstrate my front-end development capabilities, and provide an easy way for visitors to connect with me.
