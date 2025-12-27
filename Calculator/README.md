@@ -1,1 +1,1 @@
-
+This project is a simple and interactive Calculator web application built using HTML, CSS, and JavaScript. It supports basic arithmetic operations such as addition, subtraction, multiplication, and division with real-time result display. The clean UI and responsive design ensure smooth usability across devices, while JavaScript handles the core calculation logic and user interactions. This project demonstrates my understanding of DOM manipulation, event handling, and basic application logic.
