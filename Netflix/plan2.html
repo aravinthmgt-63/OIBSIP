@@ -14,13 +14,14 @@
   <main>
   <div class="step">
     <p class="complete">Step <span>1</span> of  <span>3</span> </p>
-    <p class="plan">Choose the plan that's right for you</p>
+    <p class="choose">Choose the plan that's right for you</p>
   </div>
   <div class="Grid">
-    <div class="g">
-      <div class="top1">
+    <div class="plan" onclick="selectplan(this)">
+      <div class="top1 top">
         <p>Mobile</p>
         <p>480p</p>
+        <span class="tick">✔</span>
       </div>
 
       <div>
@@ -51,10 +52,11 @@
       </div>
     </div>
 
-    <div class="g">
-      <div class="top2">
+    <div class="plan" onclick="selectplan(this)">
+      <div class="top2 top">
        <p>Basic</p>
        <p>720p</p>
+       <span class="tick">✔</span>
       </div>
 
       <div>
@@ -85,10 +87,11 @@
       </div>      
     </div>
 
-    <div class="g">
-      <div class="top3">
+    <div class="plan" onclick="selectplan(this)">
+      <div class="top3 top">
         <p>Standard</p>
         <p>1080p</p>
+        <span class="tick">✔</span>
       </div>
 
       <div>
@@ -119,10 +122,11 @@
       </div>
     </div>
 
-    <div class="g">
-      <div class="top4">
+    <div class="plan" onclick="selectplan(this)">
+      <div class="top4 top">
         <p>Premium</p>
         <p>4K + HDR</p>
+        <span class="tick">✔</span>
       </div>
 
       <div>
@@ -182,5 +186,14 @@ Live events are included with any Netflix plan and contain ads
   </div>
   <p class="copyright">&copy; Designed by Aravinth T</p>
   </footer>
+
+  <script>
+    function selectplan(selectedplan){
+      document.querySelectorAll('.plan').forEach(plan=>{
+        plan.classList.remove('active');
+      });
+       selectedplan.classList.add('active');
+    }
+  </script>
 </body>
 </html>

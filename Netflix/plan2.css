@@ -36,7 +36,7 @@ main{
 .complete span{
   font-size:18px;
 }
-.plan{
+.choose{
   font-weight: bold;
   font-size: 33px;
   margin: 0 0 40px 0;
@@ -48,7 +48,7 @@ main{
   column-gap:10px;
   margin-left: 55px;
 }
-.g{
+.plan{
   border: 1px solid rgb(199, 196, 196);
   height:600px;
   border-radius:10px;
@@ -168,4 +168,33 @@ main{
   font-size:30px;
   font-weight:bold;
   color:rgb(167, 158, 158);
+}
+
+
+
+
+
+
+
+.top{
+  position: relative;
+}
+.tick{
+  position: absolute;
+  bottom:10px;
+  right: 10px;
+  background-color: white;
+  font-size: 10px;
+  color:blue;
+  font-weight: bold;
+  height:7px;
+  padding:1px 3px 6px 3px;
+  border-radius: 50%;
+  display: none;
+}
+.plan.active .tick{
+  display: block;
+}
+.plan.active{
+  box-shadow: 0 1px 5px black;
 }
